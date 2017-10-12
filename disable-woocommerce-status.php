@@ -3,36 +3,39 @@
 Plugin Name: Disable WooCommerce Status
 Plugin URI: https://www.littlebizzy.com/plugins/disable-woocommerce-status
 Description: Completely disables the WooCommerce Status widget in the WP Admin dashboard to greatly improve backend performance on high traffic WooCommerce shops.
-Version: 1.0.0
+Version: 1.0.1
 Author: LittleBizzy
 Author URI: https://www.littlebizzy.com
-License: GPL3
+License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Prefix: DWCSTS
 */
 
- define('RDW_VERSION', '1.0.0');
- define('RDW_DIR', plugin_dir_path(__FILE__));
- define('RDW_URL', plugin_dir_url(__FILE__));
- define('RDW_PLUGIN_BASENAME', plugin_basename(__FILE__));
+
+// Plugin constants
+ define('DWCSTS_VERSION', '1.0.1');
+ define('DWCSTS_DIR', plugin_dir_path(__FILE__));
+ define('DWCSTS_URL', plugin_dir_url(__FILE__));
+ define('DWCSTS_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
 
- register_activation_hook(__FILE__, 'rdw_activation');
- register_deactivation_hook(__FILE__, 'rdw_deactivation');
+ register_activation_hook(__FILE__, 'dwcsts_activation');
+ register_deactivation_hook(__FILE__, 'dwcsts_deactivation');
 
- function rdw_activation() {
+ function dwcsts_activation() {
    //Activation
 
  }
 
 
- function rdw_deactivation() {
+ function dwcsts_deactivation() {
     // Deactivation
  }
 
  /**
-  * Class for plugin functionallity
+  * Class for plugin functionality
   */
-  class RDW
+  class DWCSTS
   {
 
     function __construct()
@@ -46,4 +49,4 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
     }
 
   }
-  $rwd = new RDW();
+  $dwcsts = new DWCSTS();
