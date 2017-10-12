@@ -8,7 +8,7 @@ Requires PHP: 7.0
 Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Prefix: DWCSTT
+Prefix: DWCSTS
 
 Completely disables the WooCommerce Status widget in the WP Admin dashboard to greatly improve backend performance on high traffic WooCommerce shops.
 
