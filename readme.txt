@@ -81,6 +81,7 @@ Please avoid leaving negative reviews in order to get a feature implemented. Ins
 == Changelog ==
 
 = 1.0.1 =
+* minor code tweaks
 * updated plugin meta
 
 = 1.0.0 =
