@@ -1,6 +1,7 @@
 === Disable WooCommerce Status ===
 
 Contributors: littlebizzy
+Donate link: https://www.patreon.com/littlebizzy
 Tags: disable woocommerce status, disable, remove, hide, woocommerce, status, widget, dashboard, wp admin, stats
 Requires at least: 4.4
 Tested up to: 4.9
