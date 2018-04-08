@@ -2,7 +2,7 @@
 /*
 Plugin Name: Disable WooCommerce Status
 Plugin URI: https://www.littlebizzy.com/plugins/disable-woocommerce-status
-Description: Completely disables the WooCommerce Status widget in the WP Admin dashboard to greatly improve backend performance on high traffic WooCommerce shops.
+Description: Completely disables the WooCommerce Status widget in the WP Admin dashboard to greatly improve backend performance on shops with large inventories.
 Version: 1.0.3
 Author: LittleBizzy
 Author URI: https://www.littlebizzy.com
