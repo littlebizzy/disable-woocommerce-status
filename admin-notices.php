@@ -31,55 +31,30 @@ final class DWCSTS_Admin_Notices {
 	private $days_dismissing_suggestions = 180; // 6 months reappear
 	private $suggestions_message = '%plugin% recommends the following free plugins:';
 	private $suggestions = array(
+		'disable-cart-fragments-littlebizzy' => array(
+			'name' => 'Disable Cart Fragments',
+			'desc' => 'Completely disables the AJAX cart fragments feature in WooCommerce for a huge boost in loading speed (redirect to cart page highly recommended).',
+			'filename' => 'disable-cart-fragments.php',
+		),
 		'disable-wc-styles-littlebizzy' => array(
 			'name' => 'Disable WooCommerce Styles',
 			'desc' => 'Completely disables all of the CSS stylesheets that are loaded by WooCommerce in order that styling can be better managed by a single style.css file.',
 			'filename' => 'disable-woocommerce-styles.php',
 		),
-    'disable-cart-fragments-littlebizzy' => array(
-			'name' => 'Disable Cart Fragments',
-			'desc' => 'Completely disables the AJAX cart fragments feature in WooCommerce for a huge boost in loading speed (redirect to cart page highly recommended).',
-			'filename' => 'disable-cart-fragments.php',
-		),
-    'cf-littlebizzy' => array(
-			'name' => 'CloudFlare',
-			'desc' => 'Easily connect your WordPress website to free optimization features from CloudFlare, including one-click options to purge cache and enable dev mode.',
-			'filename' => 'cloudflare.php',
-		),
-    'force-https-littlebizzy' => array(
-			'name' => 'Force HTTPS',
-			'desc' => 'Redirects all HTTP requests to the HTTPS version and fixes all insecure static resources without altering the database (also works with CloudFlare).',
-			'filename' => 'force-https.php',
+    		'delete-expired-transients-littlebizzy' => array(
+			'name' => 'Delete Expired Transients',
+			'desc' => 'Deletes all expired transients upon activation and on a daily basis thereafter via WP Cron to maintain a cleaner database and improve performance.',
+			'filename' => 'delete-expired-transients.php',
 		),
 		'remove-query-strings-littlebizzy' => array(
 			'name' => 'Remove Query Strings',
 			'desc' => 'Removes all query strings from static resources meaning that proxy servers and beyond can better cache your site content (plus, better SEO scores).',
 			'filename' => 'remove-query-strings.php',
 		),
-		'server-status-littlebizzy' => array(
-			'name' => 'Server Status',
-			'desc' => 'Useful statistics about the server OS, CPU, RAM, load average, memory usage, IP address, hostname, timezone, disk space, PHP, MySQL, caches, etc.',
-			'filename' => 'server-status.php',
-		),
-		'disable-emojis-littlebizzy' => array(
-			'name' => 'Disable Emojis',
-			'desc' => 'Completely disables both the old and new versions of WordPress emojis, removes the corresponding javascript calls, and improves page loading times.',
-			'filename' => 'disable-emojis.php',
-		),
-		'disable-embeds-littlebizzy' => array(
-			'name' => 'Disable Embeds',
-			'desc' => 'Disables both external and internal embedding functions to avoid slow page render, instability and SEO issues, and to improve overall loading speed.',
-			'filename' => 'disable-embeds.php',
-		),
-		'disable-xml-rpc-littlebizzy' => array(
-			'name' => 'Disable XML-RPC',
-			'desc' => 'Completely disables all XML-RPC related functions in WordPress including pingbacks and trackbacks, and helps prevent attacks on the xmlrpc.php file.',
-			'filename' => 'disable-xml-rpc.php',
-		),
-		'404-to-homepage-littlebizzy' => array(
-			'name' => '404 To Homepage',
-			'desc' => 'Redirects all 404 (Not Found) errors to the homepage for a better user experience, less abuse from bots, and 100% elimination of Google GSC warnings.',
-			'filename' => '404-to-homepage.php',
+		'cf-littlebizzy' => array(
+			'name' => 'CloudFlare',
+			'desc' => 'Easily connect your WordPress website to free optimization features from CloudFlare, including one-click options to purge cache and enable dev mode.',
+			'filename' => 'cloudflare.php',
 		),
 	);
 
