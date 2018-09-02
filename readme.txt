@@ -6,7 +6,7 @@ Tags: disable, remove, woocommerce, status, widget
 Requires at least: 4.4
 Tested up to: 4.9
 Requires PHP: 7.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Prefix: DWCSTS
@@ -162,6 +162,9 @@ Please avoid leaving negative reviews in order to get a feature implemented. Ins
 
 == Changelog ==
 
+= 1.0.4 =
+* updated plugin meta
+
 = 1.0.3 =
 * added warning for Multisite installations
 * updated recommended plugins
@@ -171,11 +174,12 @@ Please avoid leaving negative reviews in order to get a feature implemented. Ins
 * tested with WP 4.9
 * added recommended plugins notice
 * added rating request notice
-* added support for `define('DISABLE_NAG_NOTICES', true);`
+* added support for `DISABLE_NAG_NOTICES`
 
 = 1.0.1 =
-* minor code tweaks
+* optimized plugin code
 * updated plugin meta
 
 = 1.0.0 =
 * initial release
+* tested with PHP 7.0
