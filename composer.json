@@ -1,0 +1,16 @@
+{
+    "name": "littlebizzy/disable-woocommerce-status",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "homepage": "https://www.littlebizzy.com/plugins/disable-woocommerce-status",
+    "description": "Completely disables the WooCommerce Status widget in the WP Admin dashboard to greatly improve backend performance on shops with large inventories.",
+    "keywords": ["wordpress","plugin","disable","woocommerce","wc","status","widget","wp admin","dashboard","performance","backend","speed","speed up"],
+    "support": {
+        "issues": "https://github.com/littlebizzy/disable-woocommerce-status/issues",
+        "forum": "https://www.littlebizzy.com/members"
+    }
+    "require": {
+        "php": "^7.2",
+        "composer/installers": "~1.0"
+    }
+}
